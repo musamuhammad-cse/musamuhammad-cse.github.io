@@ -1,119 +1,294 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>Md Abu Musa - Personal Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Template Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
-
-    <!-- Template CSS Files -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/preloader.min.css" rel="stylesheet">
-    <link href="css/circle.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-
-    <!-- CSS Skin File -->
-    <link href="css/skins/yellow.css" rel="stylesheet">
-
-    <!-- Modernizr JS File -->
-    <script src="js/modernizr.custom.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Musa — Backend Software Engineer</title>
+<meta name="description" content="Md. Abu Musa — Backend Software Engineer specializing in PHP/Laravel, Golang, and AWS. 8+ years building scalable backend systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
+<body>
 
-<body class="home">
-<!-- Header Starts -->
-<header class="header" id="navbar-collapse-toggle">
-    <!-- Fixed Navigation Starts -->
-    <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
-        <li class="icon-box active">
-            <i class="fa fa-home"></i>
-            <a href="index.html">
-                <h2>Home</h2>
-            </a>
-        </li>
-        <li class="icon-box">
-            <i class="fa fa-user"></i>
-            <a href="about.html">
-                <h2>About</h2>
-            </a>
-        </li>
-        <li class="icon-box">
-            <i class="fa fa-briefcase"></i>
-            <a href="portfolio.html">
-                <h2>Portfolio</h2>
-            </a>
-        </li>
-        <li class="icon-box">
-            <i class="fa fa-envelope-open"></i>
-            <a href="contact.html">
-                <h2>Contact</h2>
-            </a>
-        </li>
-        <li class="icon-box">
-            <i class="fa fa-comments"></i>
-            <a href="blog.html">
-                <h2>Blog</h2>
-            </a>
-        </li>
-    </ul>
-    <!-- Fixed Navigation Ends -->
-    <!-- Mobile Menu Starts -->
-    <nav role="navigation" class="d-block d-lg-none">
-        <div id="menuToggle">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul class="list-unstyled" id="menu">
-                <li class="active"><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
-                <li><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
-                <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
-                <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
-                <li><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
-            </ul>
-        </div>
+<header class="site-header">
+  <div class="wrap">
+    <a href="#" class="logo"><span class="dim">$</span> musa<span style="color:var(--text-dim)">.</span></a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about"><span class="num">01.</span> About</a></li>
+        <li><a href="#skills"><span class="num">02.</span> Skills</a></li>
+        <li><a href="#experience"><span class="num">03.</span> Experience</a></li>
+        <li><a href="blog.html"><span class="num">04.</span> Blog</a></li>
+        <li><a href="#contact"><span class="num">05.</span> Contact</a></li>
+      </ul>
     </nav>
-    <!-- Mobile Menu Ends -->
+  </div>
 </header>
-<!-- Header Ends -->
-<!-- Main Content Starts -->
-<section class="container-fluid main-container container-home p-0 revealator-slideup revealator-once revealator-delay1">
-    <div class="color-block d-none d-lg-block"></div>
-    <div class="row home-details-container align-items-center">
-        <div class="col-lg-4 bg position-fixed d-none d-lg-block"></div>
-        <div class="col-12 col-lg-8 offset-lg-4 home-details text-left text-sm-center text-lg-left">
-            <div>
-                <img src="http://via.placeholder.com/300x300.jpg" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none" alt="my picture" />
-                <h1 class="text-uppercase poppins-font">I'm Md Abu Musa.<span>software engineer</span></h1>
-                <p class="open-sans-font">Full-Stack Software Engineer with 6 years of professional experience across a wide range of problem domains. My main expertise is in PHP, Laravel, Javascript, React, Vue.js, AWS, C++. I am always open to new challenges by participating in new ideas and fully customized coding projects and also passionate about technology, constantly seeking to learn, improve skills, and looking for a challenging role working on exciting projects.</p>
-                <a class="button" href="about.html">
-                    <span class="button-text">more about me</span>
-                    <span class="button-icon fa fa-arrow-right"></span>
-                </a>
-            </div>
-        </div>
+
+<main class="wrap">
+
+  <section class="hero" id="home">
+    <p class="eyebrow">Hi, my name is</p>
+    <h1>Musa.<br>I build backend<br>systems that <span class="accent">scale</span>.</h1>
+    <p class="lede">
+      Backend Software Engineer with 8+ years of experience building scalable,
+      production-grade systems across healthcare, media, e-commerce, and inventory
+      domains using PHP/Laravel, Golang, JS, and AWS. Specialized in RESTful API design,
+      distributed systems, multi-tenant architecture, and performance optimization.
+    </p>
+    <div class="cta-row">
+      <a href="#contact" class="btn">Get In Touch</a>
+      <a href="blog.html" class="btn-ghost">View Blog <span class="arrow">→</span></a>
     </div>
-</section>
-<!-- Main Content Ends -->
 
-<!-- Template JS Files -->
-<script src="js/jquery-3.5.0.min.js"></script>
-<script src="js/preloader.min.js"></script>
-<script src="js/fm.revealator.jquery.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/masonry.pkgd.min.js"></script>
-<script src="js/classie.js"></script>
-<script src="js/cbpGridGallery.js"></script>
-<script src="js/jquery.hoverdir.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/custom.js"></script>
+    <div class="terminal">
+      <div class="tbar">
+        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+        <span class="tlabel">musa@dhaka: ~</span>
+      </div>
+      <pre><span class="prompt">$</span> <span class="command">whoami</span> --stack
+<span data-type='["golang, php\/laravel, javascript","mysql, postgres, mongodb, redis","docker, k8s, terraform, aws"]'></span></pre>
+    </div>
+  </section>
 
+  <section class="section about" id="about">
+    <div class="section-head">
+      <h2><span class="prompt-mark">&gt;_</span> About Me</h2>
+      <div class="rule"></div>
+    </div>
+    <p>
+      Backend Software Engineer with 8+ years of experience building scalable,
+      production-grade systems across healthcare, media, e-commerce, and inventory
+      domains using <strong class="hl">PHP/Laravel</strong>, <strong class="hl">Golang</strong>,
+      <strong class="hl">JavaScript</strong>, and <strong class="hl">AWS</strong>.
+      Specialized in RESTful API design, distributed systems, multi-tenant architecture,
+      and performance optimization in product-driven environments.
+    </p>
+    <p>
+      Currently building at <strong class="hl">Pivotly</strong> (US-based, remote),
+      and previously spent time at <strong class="hl">Silicon Orchard Ltd.</strong>,
+      <strong class="hl">multibrand INFOTECH Ltd.</strong>,
+      <strong class="hl">IT Grow Division Ltd.</strong>, and
+      <strong class="hl">Unitech Engineers Group</strong>. I hold a B.Sc. in Computer
+      Science &amp; Engineering from Daffodil International University (2017).
+    </p>
+    <div class="badges">
+      <span class="badge">Dhaka, Bangladesh</span>
+      <span class="badge">Remote-first</span>
+      <span class="badge">musamuhmmad.cse@gmail.com</span>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="section-head">
+      <h2><span class="prompt-mark">&gt;_</span> Technical Skills</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="skill-grid">
+      <div class="skill-card">
+        <h3><span class="ico">▣</span> Languages &amp; Frameworks</h3>
+        <div class="chip-row">
+          <span class="chip">PHP</span><span class="chip">Go</span><span class="chip">JavaScript</span>
+          <span class="chip">Laravel</span><span class="chip">Gin</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3><span class="ico">◧</span> API &amp; Communication</h3>
+        <div class="chip-row">
+          <span class="chip">REST</span><span class="chip">gRPC</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3><span class="ico">▤</span> Databases &amp; Storage</h3>
+        <div class="chip-row">
+          <span class="chip">MySQL</span><span class="chip">PostgreSQL</span><span class="chip">MongoDB</span>
+          <span class="chip">Redis</span><span class="chip">Elasticsearch</span><span class="chip">DynamoDB</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3><span class="ico">◈</span> Cloud &amp; AWS</h3>
+        <div class="chip-row">
+          <span class="chip">EC2</span><span class="chip">ECS</span><span class="chip">EKS</span>
+          <span class="chip">Lambda</span><span class="chip">S3</span><span class="chip">RDS</span>
+          <span class="chip">SQS</span><span class="chip">SNS</span><span class="chip">API Gateway</span>
+          <span class="chip">CloudFront</span><span class="chip">IAM</span><span class="chip">CloudWatch</span>
+          <span class="chip">Route 53</span><span class="chip">VPC</span><span class="chip">ALB</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3><span class="ico">⊞</span> DevOps &amp; Infrastructure</h3>
+        <div class="chip-row">
+          <span class="chip">Docker</span><span class="chip">Kubernetes</span><span class="chip">Terraform</span>
+          <span class="chip">GitHub Actions</span><span class="chip">GitLab CI/CD</span><span class="chip">Nginx</span>
+          <span class="chip">Linux</span><span class="chip">Prometheus</span><span class="chip">Grafana</span>
+          <span class="chip">OpenTelemetry</span><span class="chip">ELK Stack</span><span class="chip">Sentry</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3><span class="ico">⊡</span> Architecture &amp; Patterns</h3>
+        <div class="chip-row">
+          <span class="chip">Microservices</span><span class="chip">Event-Driven</span><span class="chip">Clean Architecture</span>
+          <span class="chip">DDD</span><span class="chip">CQRS</span><span class="chip">SOLID</span>
+          <span class="chip">Kafka</span><span class="chip">RabbitMQ</span><span class="chip">OAuth 2.0</span>
+          <span class="chip">JWT</span><span class="chip">RBAC</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3><span class="ico">⊠</span> Testing &amp; Performance</h3>
+        <div class="chip-row">
+          <span class="chip">PHPUnit</span><span class="chip">Go Testing</span><span class="chip">Testify</span>
+          <span class="chip">TDD</span><span class="chip">Query Optimization</span><span class="chip">Redis Caching</span>
+          <span class="chip">Connection Pooling</span><span class="chip">Load Balancing</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3><span class="ico">◉</span> AI &amp; LLM Tools</h3>
+        <div class="chip-row">
+          <span class="chip">Cursor</span><span class="chip">ChatGPT</span><span class="chip">Claude</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="section-head">
+      <h2><span class="prompt-mark">&gt;_</span> Where I've Worked</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="exp">
+      <ul class="exp-tabs">
+        <li class="active" data-target="pane-pivotly">Pivotly</li>
+        <li data-target="pane-silicon">Silicon Orchard</li>
+        <li data-target="pane-multibrand">multibrand INFOTECH</li>
+        <li data-target="pane-itgrow">IT Grow Division</li>
+        <li data-target="pane-unitech">Unitech Engineers</li>
+      </ul>
+      <div class="exp-panel">
+        <div class="exp-pane active" id="pane-pivotly">
+          <h3>Software Engineer <span class="at">@ Pivotly</span></h3>
+          <p class="dates">Nov 2025 — Present &nbsp;·&nbsp; USA (Remote)</p>
+          <ul>
+            <li>Architected a production-grade multitenant doctor portal using PHP/Laravel, JS, and Golang — implementing distributed system principles across multi-tenant architecture, load balancing, and message queuing.</li>
+            <li>Designed and optimized 100+ RESTful APIs across patient, appointment, and claim services, achieving up to 88% query reduction through systematic profiling and database indexing.</li>
+            <li>Engineered a zero-downtime migration of 15M+ activity log records to an archived database, reducing primary database size and improving query performance.</li>
+            <li>Engineered complex backend features including dynamic scheduling, automated ledger reporting, and event-driven webhook delivery systems.</li>
+          </ul>
+          <p class="stack"><span>Go</span> · <span>Laravel</span> · <span>JS</span> · <span>AWS</span> · <span>PostgreSQL</span> · <span>Docker</span></p>
+        </div>
+        <div class="exp-pane" id="pane-silicon">
+          <h3>Software Engineer <span class="at">@ Silicon Orchard Ltd.</span></h3>
+          <p class="dates">Nov 2021 — Oct 2025 &nbsp;·&nbsp; Dhaka, Bangladesh</p>
+          <ul>
+            <li>Built and optimized RESTful APIs for a video platform and an AI-driven B2B media discovery platform, integrating Redis caching, AWS S3 for media storage/streaming, and Amazon Comprehend for automated metadata extraction and content classification.</li>
+            <li>Developed core HR management system modules including payroll processing, employee lifecycle management, and role-based access control; managed payroll for 100+ employees.</li>
+            <li>Contributed to backend development of an e-commerce platform, building scalable RESTful APIs with a focus on clean architecture and maintainability.</li>
+          </ul>
+          <p class="stack"><span>PHP</span> · <span>Laravel</span> · <span>AWS</span> · <span>Redis</span> · <span>PostgreSQL</span></p>
+        </div>
+        <div class="exp-pane" id="pane-multibrand">
+          <h3>Full Stack Developer <span class="at">@ multibrand INFOTECH Ltd.</span></h3>
+          <p class="dates">Dec 2019 — May 2020 &nbsp;·&nbsp; Dhaka, Bangladesh</p>
+          <ul>
+            <li>Built and delivered backend-heavy web applications using PHP and PostgreSQL, including a server-side version check system that triggers automatic client updates on first daily login for zero-touch software rollouts across all users.</li>
+          </ul>
+          <p class="stack"><span>PHP</span> · <span>PostgreSQL</span> · <span>JavaScript</span></p>
+        </div>
+        <div class="exp-pane" id="pane-itgrow">
+          <h3>Programmer <span class="at">@ IT Grow Division Ltd.</span></h3>
+          <p class="dates">May 2018 — Jun 2019 &nbsp;·&nbsp; Dhaka, Bangladesh</p>
+          <ul>
+            <li>Contributed to the backend development of a trading platform supporting 20,000+ daily active users, improving system stability and reliability while delivering new feature modules and bug fixes.</li>
+          </ul>
+          <p class="stack"><span>PHP</span> · <span>MySQL</span></p>
+        </div>
+        <div class="exp-pane" id="pane-unitech">
+          <h3>Web Developer <span class="at">@ Unitech Engineers Group</span></h3>
+          <p class="dates">Jan 2016 — Mar 2018 &nbsp;·&nbsp; Dhaka, Bangladesh</p>
+          <ul>
+            <li>Built and maintained diverse web applications including e-commerce platforms, POS systems, and corporate websites — notably an Education Management System (EMS) that served 3,000+ students.</li>
+          </ul>
+          <p class="stack"><span>PHP</span> · <span>MySQL</span> · <span>JavaScript</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="certifications">
+    <div class="section-head">
+      <h2><span class="prompt-mark">&gt;_</span> Education &amp; Certifications</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="cert-list">
+      <div class="cert">
+        <div>
+          <h3>B.Sc. in Computer Science &amp; Engineering</h3>
+          <p>Daffodil International University, Dhaka, Bangladesh. May 2014 – Apr 2017.</p>
+          <p class="tags">#CS &nbsp;#Engineering</p>
+        </div>
+        <div class="ico">🎓</div>
+      </div>
+      <div class="cert">
+        <div>
+          <h3>HackerRank Golang Certification</h3>
+          <p>Validated proficiency in Go programming, including core concepts, data types, collections, interfaces, data structures, and problem-solving.</p>
+          <p class="tags">#Golang &nbsp;#Certification</p>
+        </div>
+        <div class="ico">✓</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="blog-preview">
+    <div class="section-head">
+      <h2><span class="prompt-mark">&gt;_</span> Latest Writing</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="blog-preview-list">
+      <div class="bp-row">
+        <span class="bp-date">2026-05</span>
+        <a class="bp-title" href="blog.html">Backend Communication Design Patterns: Request-Response, Pub/Sub, SSE &amp; Sidecar</a>
+        <span class="bp-tag">#system-design</span>
+      </div>
+      <div class="bp-row">
+        <span class="bp-date">2026-03</span>
+        <a class="bp-title" href="blog.html">Debugging a Silent Data Integrity Bug in an Artisan Migration Command</a>
+        <span class="bp-tag">#laravel</span>
+      </div>
+      <div class="bp-row">
+        <span class="bp-date">2026-02</span>
+        <a class="bp-title" href="blog.html">Consistent Hashing, Explained the Way I Wish Someone Had Explained It to Me</a>
+        <span class="bp-tag">#system-design</span>
+      </div>
+    </div>
+    <a href="blog.html" class="btn-ghost view-all">Read all posts <span class="arrow">→</span></a>
+  </section>
+
+  <section class="section contact" id="contact">
+    <p class="eyebrow">What's Next?</p>
+    <h2>Get In Touch</h2>
+    <p>
+      I'm always open to new opportunities — whether you have a question,
+      an interesting project, or just want to talk system design.
+    </p>
+    <a href="mailto:musamuhmmad.cse@gmail.com" class="btn">Say Hello</a>
+    <p style="margin-top:20px; font-size:13px; color:var(--text-dim); font-family:var(--mono);">
+      musamuhmmad.cse@gmail.com &nbsp;·&nbsp; +8801821326978 &nbsp;·&nbsp; Dhaka, Bangladesh
+    </p>
+  </section>
+
+</main>
+
+<footer class="site-footer wrap">
+  <div class="footer-links">
+    <a href="https://github.com/musamuhammad-cse" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://linkedin.com/in/musamuhammad-cse" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://musamuhammad-cse.github.io" target="_blank" rel="noopener">Site</a>
+    <a href="blog.html">Blog</a>
+  </div>
+  <p class="footer-note"><span class="prompt">$</span> designed &amp; built by Musa · © 2026</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
-
 </html>
